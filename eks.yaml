@@ -440,6 +440,9 @@ Resources:
     Type: AWS::EKS::Cluster
     Properties:
       Name: !Ref EKSClusterName
+      EncryptionConfig:
+        - Resources:
+          - secrets
       RoleArn:
         "Fn::GetAtt": ["EKSIAMRole", "Arn"]
       ResourcesVpcConfig:
