@@ -46,7 +46,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -88,7 +88,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -130,17 +130,17 @@ Resources:
         CidrIp: 0.0.0.0/0
       Tags:
         - Key: git_repo
-          Value: cfngoat.yaml
+          Value: cfngoat
         - Key: git_file
-          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
+          Value: cfngoat.yaml
         - Key: git_commit
-          Value: 112870361+rishav-19
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_modifiers
-          Value: 2022-09-19 07:19:24
+          Value: 112870361+rishav-19
         - Key: git_last_modified_at
-          Value: 112870361+rishav-19@users.noreply.github.com
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_by
-          Value: nimrodkor@gmail.com
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
@@ -155,7 +155,7 @@ Resources:
         - Key: Name
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -186,7 +186,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -221,7 +221,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -237,7 +237,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -310,7 +310,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -337,7 +337,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -357,7 +357,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -390,7 +390,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -449,7 +449,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -494,7 +494,7 @@ Resources:
         - Key: Environment
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -526,7 +526,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -559,7 +559,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -612,7 +612,7 @@ Resources:
         - Key: Environment
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -866,7 +866,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -899,7 +899,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -923,7 +923,7 @@ Resources:
       AccessControl: PublicRead
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data"
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -981,7 +981,7 @@ Resources:
         - Key: Name
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -1010,7 +1010,7 @@ Resources:
         LogFilePrefix: log/
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data-science"
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
@@ -1047,7 +1047,7 @@ Resources:
         - Key: yor_trace
           Value: rishav-19
         - Key: git_org
-          Value: bridgecrewio
+          Value: cfngoat
         - Key: git_repo
           Value: cfngoat.yaml
         - Key: git_file
