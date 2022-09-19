@@ -48,7 +48,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -90,7 +90,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -130,7 +130,7 @@ Resources:
         CidrIp: 0.0.0.0/0
       Tags:
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -157,7 +157,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -188,7 +188,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -223,7 +223,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -239,7 +239,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -312,7 +312,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -339,7 +339,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -359,7 +359,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -392,7 +392,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -451,7 +451,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -496,7 +496,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -528,7 +528,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -561,7 +561,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -578,7 +578,7 @@ Resources:
         - Key: Name
           Value: !Sub "sg-${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -614,7 +614,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -653,7 +653,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-role"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -702,7 +702,7 @@ Resources:
       SubnetId: !Ref WebSubnet
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-dbapp"
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -868,7 +868,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -901,7 +901,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -925,7 +925,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data"
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -951,7 +951,7 @@ Resources:
       AccessControl: Private
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-financials"
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -983,7 +983,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -1012,7 +1012,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data-science"
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -1049,7 +1049,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
-          Value: cfngoat
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
@@ -1095,7 +1095,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-cleanup-role"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: cfngoat.yaml
         - Key: git_file
           Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
