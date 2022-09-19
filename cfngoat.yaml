@@ -44,19 +44,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-ec2" 
         - Key: yor_trace
-          Value: 595b9b79-bd1e-45fd-a297-d521ebdf15e7
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
       UserData:
@@ -82,21 +82,21 @@ Resources:
       Size: 1
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-ebs"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 838685b6-8fac-42eb-9cf4-008dd36216a1
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
           Value: "2021-08-23 13:51:41"
 
@@ -132,17 +132,17 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: d4d72008-2b73-4635-9df6-8035c8850d66
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
   WebVPC:
@@ -153,19 +153,19 @@ Resources:
       EnableDnsHostnames: True
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-vpc"
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
@@ -184,19 +184,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-subnet"
         - Key: yor_trace
-          Value: 4f6434ca-b2c2-4fe3-88fc-9ad969965958
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
   WebSubnet2:
@@ -211,21 +211,21 @@ Resources:
       MapPublicIpOnLaunch: True
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-subnet2"
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 68c27f34-7110-458d-98b3-b9a7307638dc
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
   WebIGW:
@@ -235,19 +235,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-igw"
         - Key: yor_trace
-          Value: 39d8202d-7126-40dd-afa0-4554eeadada4
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
   InternetGatewayAttachment:
@@ -261,17 +261,17 @@ Resources:
       VpcId: !Ref WebVPC
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-rtb"
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
-          Value: 0613f2a9-ccbb-4e77-839b-bc0a7681bd9c
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
@@ -304,21 +304,21 @@ Resources:
       PrivateIpAddress: 172.16.10.100
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-primary_network_interface"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
-          Value: ebfdc86d-55a5-4df1-88fd-2f3bc869549c
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
           Value: "2020-04-25 01:13:26"
   VpcFlowLogs:
@@ -331,19 +331,19 @@ Resources:
       TrafficType: ALL
       Tags:
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_by
-          Value: jonathan.jozwiak@googlemail.com
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: yor_trace
-          Value: 077d3a3d-66bc-4fe9-8839-b59a40785234
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
           Value: jonathan.jozwiak
   FlowBucket:
@@ -355,19 +355,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-flowlogs"
         - Key: yor_trace
-          Value: a148a687-a031-4491-8fc9-6bb78fef0572
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
 
@@ -382,21 +382,21 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-user"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 346804e2-5a21-4f1b-a8bf-f3c3fc9c7d15
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
           Value: jonathan.jozwiak/nimrodkor
   AccessKey:
@@ -441,19 +441,19 @@ Resources:
           Resource: '*'
       Tags:
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 112870361+rishav-19
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_by
-          Value: nimrodkor@gmail.com
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: yor_trace
-          Value: bd68272a-4d3b-44e6-a2f0-ad783935c332
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
   LogsKeyAlias:
@@ -492,19 +492,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-rds"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
@@ -520,21 +520,21 @@ Resources:
         - Key: Name
           Value: !Sub "og-${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 6d7cc8b8-ee12-4ad2-940c-324b6eeca646
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
           Value: "2021-08-23 13:51:41"
   DefaultDBParameterGroup:
@@ -549,21 +549,21 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-pg"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 88c3fff0-8627-4e00-8e10-086c1651370a
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
   DefaultSubnetGroup:
@@ -580,17 +580,17 @@ Resources:
         - Key: Environment
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 3c0704d6-7b98-472d-a6b2-c3085cb87024
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
@@ -610,19 +610,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-rds-sg"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
@@ -655,17 +655,17 @@ Resources:
         - Key: Environment
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 47d128cd-8fec-4d80-a768-e5e4c133b61a
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
@@ -704,17 +704,17 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-dbapp"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 35854694-8244-4717-8f50-146fbec15c61
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
@@ -858,21 +858,21 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-analysis-lambda"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 2c07712d-22f5-42be-946e-1c2e71d2e275
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
           Value: jonathan.jozwiak/nimrodkor
   AnalysisLambda:
@@ -893,21 +893,21 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-analysis"
         - Key: Environment
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 5939cdf9-4e86-4208-80d1-095c367c2c13
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
           Value: "2021-08-23 13:51:41"
 
@@ -927,17 +927,17 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
-          Value: 509b197d-4f87-4ae1-aa43-8cca13c9e92e
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
 
@@ -953,17 +953,17 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-financials"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
-          Value: 7d0b70d4-58fb-4d2d-b966-177d349932da
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
@@ -979,19 +979,19 @@ Resources:
         Status: Enabled
       Tags:
         - Key: Name
-          Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-operations"
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
@@ -1014,17 +1014,17 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
         - Key: yor_trace
-          Value: 11266986-850e-41eb-b980-7b4d8d49f919
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
   LogsBucket:
@@ -1045,19 +1045,19 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-logs"
         - Key: yor_trace
-          Value: 7c5f90f1-7102-45dc-bead-02754df64eba
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: nimrodkor@gmail.com
 
@@ -1097,17 +1097,17 @@ Resources:
         - Key: Environment
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_commit
-          Value: b1681f3806db6656faf4107ceceb77e9364e59b7
+          Value: 112870361+rishav-19
         - Key: git_modifiers
-          Value: jonathan.jozwiak
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_at
-          Value: "2020-04-25 01:13:26"
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: git_last_modified_by
           Value: jonathan.jozwiak@googlemail.com
         - Key: yor_trace
-          Value: 573995a2-e3f4-43a6-847d-df474b0fc71a
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
@@ -1251,15 +1251,15 @@ Resources:
           }
       Tags:
         - Key: git_commit
-          Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
+          Value: f540b1ab7ea2c453681871bcc6cb51adee40ebf0
         - Key: git_modifiers
-          Value: jonathan.jozwiak/nimrodkor
+          Value: 112870361+rishav-19
         - Key: git_last_modified_at
-          Value: "2021-08-23 13:51:41"
+          Value: 2022-09-19 07:19:24
         - Key: git_last_modified_by
-          Value: nimrodkor@gmail.com
+          Value: 112870361+rishav-19@users.noreply.github.com
         - Key: yor_trace
-          Value: 75847e0e-ba4e-46e5-8c36-cd934d666acd
+          Value: rishav-19
         - Key: git_org
           Value: bridgecrewio
         - Key: git_repo
